@@ -1,6 +1,6 @@
 <img style="width: 600px;"src="http://yleisurheilutaitaja.azurewebsites.net/Taitaja2017_logojpeg.jpg" alt="taitajalogo">
 <?php
-    $my= new mysqli ('MYSQLCONNSTR_localdb','azure','password','modd');
+    $my= mysqli_connect('MYSQLCONNSTR_localdb','azure','password','modd');
     if($my->mysql_errno){
         die("MySQL, virhe yhteyden luonnissa". $my->connect_error);
     }
