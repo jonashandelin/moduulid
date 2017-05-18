@@ -4,6 +4,13 @@
     if($my->mysql_errno){
         die("MySQL, virhe yhteyden luonnissa". $my->connect_error);
     }
+     $my->set_charset('utf8');
+     $sql = "SELECT * FROM tainatulos";
+     $tulost = $my->query($sql);
+     while($rivi = $tulost->fetch_assoc()){
+        $neky = $rivi['40m'];
+     }
+     echo $neky;
 $lopeta = $_POST['removecookie'];
 if(!$lopeta)
 {
