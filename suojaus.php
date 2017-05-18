@@ -4,6 +4,7 @@
     if($my->mysql_errno){
         die("MySQL, virhe yhteyden luonnissa". $my->connect_error);
     }
+    mysqli_ping();
      $my->set_charset('utf8');
      $sql = "SELECT * FROM tainatulos";
      $tulost = $my->query($sql);
