@@ -1,3 +1,4 @@
+<img style="width: 600px;"src="http://yleisurheilutaitaja.azurewebsites.net/Taitaja2017_logojpeg.jpg" alt="taitajalogo">
 <?php
 $lopeta = $_POST['removecookie'];
 if(!$lopeta)
