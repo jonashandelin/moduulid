@@ -21,6 +21,7 @@
     </head>
     <body>
         <div class="container">
+            <img src="logojpeg" alt="taitajalogo">
             <div class="row">
                 <div class="col-md-6">
                     mufsnofuanuofnadonasdofnodasfuo
@@ -28,6 +29,7 @@
                 </div>    
                 <div class="col-md-6">
                     <h1>Joteioptnaoåtnaåginoåao</h1>
+            
                 </div>
             </div>
                     
