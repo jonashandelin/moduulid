@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+echo 'olet nyt etusivulla';
     $my= new mysqli ('MYSQLCONNSTR_localdb','azure','password','modd');
     if($my->mysql_errno){
         die("MySQL, virhe yhteyden luonnissa". $my->connect_error);
