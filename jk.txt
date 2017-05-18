@@ -1,0 +1,182 @@
+              <div class="form-group">
+  <label for="nek">40 Metriä</label>
+  <input type="text" class="form-control" id="nek" name="nek"> Sekuntia
+</div>
+                          <div class="form-group">
+  <label for="kuk">60 Metriä</label>
+  <input type="text" class="form-control" id="kuk" name="kuk"> Sekuntia
+</div>
+                          <div class="form-group">
+  <label for="kak">80 Metriä</label>
+  <input type="text" class="form-control" id="kak" name="kak"> Sekuntia
+</div>
+                          <div class="form-group">
+  <label for="sam">100 Metriä</label>
+  <input type="text" class="form-control" id="sam" name="sam"> Sekuntia
+</div>
+                          <div class="form-group">
+  <label for="sav">150 Metriä</label>
+  <input type="text" class="form-control" id="sav" name="sav"> Sekuntia
+</div>
+                          <div class="form-group">
+  <label for="kasa">200 Metriä</label>
+  <input type="text" class="form-control" id="kasa" name="kasa"> Sekuntia
+</div>
+                          <div class="form-group">
+  <label for="kosa">300 Metriä</label>
+  <input type="text" class="form-control" id="kosa" name="kosa"> Sekuntia
+</div>
+                          <div class="form-group">
+  <label for="nesa">400 Metriä</label>
+  <input type="text" class="form-control" id="nesa" name="nesa"> Minuuttia
+</div>
+                                     <div class="form-group">
+  <label for="kua">60 Metrin aidat</label>
+  <input type="text" class="form-control" id="kua" name="kua"> Minuuttia
+</div>
+                                      <div class="form-group">
+  <label for="kaha">80 Metrin aidat</label>
+  <input type="text" class="form-control" id="kaha" name="kaha"> Minuuttia
+</div>
+                                      <div class="form-group">
+  <label for="saa">100 Metrin aidat</label>
+  <input type="text" class="form-control" id="saa" name="saa"> Minuuttia
+</div>
+                                      <div class="form-group">
+  <label for="kasaa">200 Metrin aidat</label>
+  <input type="text" class="form-control" id="kasaa" name="kasaa"> Minuuttia
+</div>
+                <h2>Kestävyyslajit</h2> 
+                        <div class="form-group">
+  <label for="kusa">600 Metriä</label>
+  <input type="text" class="form-control" id="kusa" name="kusa"> Minuuttia
+</div>
+                                   <div class="form-group">
+  <label for="kahsa">800 Metriä</label>
+  <input type="text" class="form-control" id="kahsa" name="kahsa"> Minuuttia
+</div>
+                                   <div class="form-group">
+  <label for="tuhat">1000 Metriä</label>
+  <input type="text" class="form-control" id="tuhat" name="tuhat"> Minuuttia
+</div>
+                                   <div class="form-group">
+  <label for="tuhav">1500 Metriä</label>
+  <input type="text" class="form-control" id="tuhav" name="tuhav"> Minuuttia
+</div>
+                                   <div class="form-group">
+  <label for="katu">2000 Metriä</label>
+  <input type="text" class="form-control" id="katu" name="katu"> Minuuttia
+</div>
+                                   <div class="form-group">
+  <label for="kotu">3000 Metriä</label>
+  <input type="text" class="form-control" id="kotu" name="kotu"> Minuuttia
+</div>
+                <h2>Hyppylajit</h2>
+                                 <div class="form-group">
+  <label for="kork">Korkeus</label>
+  <input type="text" class="form-control" id="kork" name="kork"> Cm
+</div>
+                                          <div class="form-group">
+  <label for="sei">Seiväs</label>
+  <input type="text" class="form-control" id="sei" name="sei"> Cm
+</div>
+                                          <div class="form-group">
+  <label for="pit">Pituus</label>
+  <input type="text" class="form-control" id="pit" name="pit"> Cm
+</div>
+                                          <div class="form-group">
+  <label for="kl">Kolmiloikka</label>
+  <input type="text" class="form-control" id="kl" name="kl"> Cm
+</div>
+                <h2>Heittolajit</h2>
+                                          <div class="form-group">
+  <label for="kuul">Kuula</label>
+  <input type="text" class="form-control" id="kuul" name="kuul"> Cm
+</div>
+                                          <div class="form-group">
+  <label for="kiek">Kiekko</label>
+  <input type="text" class="form-control" id="kiek" name="kiek"> Cm
+</div>
+                                          <div class="form-group">
+  <label for="mouk">Moukari</label>
+  <input type="text" class="form-control" id="mouk" name="mouk"> Cm
+</div>
+                                          <div class="form-group">
+  <label for="kei">Keihäs</label>
+  <input type="text" class="form-control" id="kei" name="kei"> Cm
+</div>
+                                          <div class="form-group">
+  <label for="pal">Pallo</label>
+  <input type="text" class="form-control" id="pal" name="pal"> Cm
+</div>
+
+
+
+
+
+
+
+
+
+
+    while($rivi = $tulost->fetch_assoc()){
+        $neky = $rivi['40m'];
+        $kuky = $rivi['60m'];
+        $kaky = $rivi['80m'];
+        $sata = $rivi['100m'];
+        $sav = $rivi['150m'];
+        $ksa = $rivi['200m'];
+        $kosa = $rivi['300m'];
+        $nesa = $rivi['400m'];
+        $kua = $rivi['60a'];
+        $kaha = $rivi['80a'];
+        $saa = $rivi['100a'];
+        $kaa = $rivi['200a'];
+        $kusa = $rivi['600m'];
+        $kasa = $rivi['800m'];
+        $tuhat = $rivi['1000m'];
+        $tuhav = $rivi['1500m'];
+        $katu = $rivi['2000m'];
+        $kotu = $rivi['3000m'];
+        $kork = $rivi['korkeus'];
+        $sei = $rivi['seiväs'];
+        $pit = $rivi['pituus'];
+        $kl = $rivi['kolmiloikka'];
+        $kuula = $rivi['kuula'];
+        $kiekko = $rivi['kiekko'];
+        $moukari = $rivi['moukari'];
+        $keihäs = $rivi['keihäs'];
+        $pallo = $rivi['pallo'];
+    }
+    $pikalop = "";
+        $pikaiso = $ri['40m'];
+        foreach ($pikam as $i){
+          if($ri[$i] > $pikaiso){
+              $pikaiso = $ri[$i];
+              $pikalop = $i;
+          }  
+        }
+        $kestlop = "";
+        $kestiso = $ri['600m'];
+        foreach ($kestm as $i){
+          if($ri[$i] > $kestiso){
+              $kestiso = $ri[$i];
+              $kestlop = $i;
+          }  
+        }
+        $hyplop = "";
+        $hypiso = $ri['korkeus'];
+        foreach ($hypl as $i){
+          if($ri[$i] > $hypiso){
+              $hypiso = $ri[$i];
+              $pikalop = $i;
+          }  
+        }
+        $heilop = "";
+        $heiiso = $ri['kuula'];
+        foreach ($heitl as $i){
+          if($ri[$i] > $heiiso){
+              $heiiso = $ri[$i];
+              $heilop = $i;
+          }  
+        }
