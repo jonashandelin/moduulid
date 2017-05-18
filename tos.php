@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-    $my= new mysqli ('localhost','azure','password','modd');
+    $my= new mysqli ('MYSQLCONNSTR_localdb','azure','password','modd');
     if($my->mysql_errno){
         die("MySQL, virhe yhteyden luonnissa". $my->connect_error);
     }
