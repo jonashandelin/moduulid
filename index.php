@@ -21,7 +21,7 @@
     </head>
     <body>
         <div class="container">
-            <img src="http://yleisurheilutaitaja.azurewebsites.net/Taitaja2017_logojpeg.jpg" alt="taitajalogo">
+            <img style="width: 600px;"src="http://yleisurheilutaitaja.azurewebsites.net/Taitaja2017_logojpeg.jpg" alt="taitajalogo">
             <div class="row">
                 <div class="col-md-6">
                     mufsnofuanuofnadonasdofnodasfuoo
