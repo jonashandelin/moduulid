@@ -24,7 +24,7 @@
             <img src="http://yleisurheilutaitaja.azurewebsites.net/Taitaja2017_logojpeg.jpg" alt="taitajalogo">
             <div class="row">
                 <div class="col-md-6">
-                    mufsnofuanuofnadonasdofnodasfuo
+                    mufsnofuanuofnadonasdofnodasfuoo
                     <h1>Jotaininisfdnisfnid</h1>
                 </div>    
                 <div class="col-md-6">
