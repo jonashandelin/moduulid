@@ -89,6 +89,7 @@ echo 'olet nyt etusivulla';
         $keihäs = $rivi['keihäs'] / 100;
         $pallo = $rivi['pallo'] / 100;
     }
+    echo "jotain 1";
     if($neky != "")
     $neky = round(1010/($neky/5.36)**5.2632 - 10);
     if($kuky != "")
@@ -143,7 +144,7 @@ if($keihäs != "")
 $keihäs = round(1010/(71.02/$keihäs)**1.1765 - 10);
 if($pallo != "")
 $pallo = round(1010/(95.94/$pallo)**1.4493 - 10);
-
+ echo "jotain 2";
 $sqlpup = "UPDATE $tietop SET 40m ='$neky', 60m='$kuky', 80m='$kaky', 100m='$sata', 150m='$sav', 200m='$ksa', 300m='$kosa', 400m='$nesa',"
             . "60a='$kua', 80a='$kaha', 100a='$saa', 200a='$kaa', 600m='$kusa',"
             . "800m='$kasa',1000m='$tuhat',1500m='$tuhav',2000m='$katu',3000m='$kotu',"
@@ -191,6 +192,7 @@ $sqlpup = "UPDATE $tietop SET 40m ='$neky', 60m='$kuky', 80m='$kaky', 100m='$sat
           }  
         }
     }
+     echo "jotain 3";
     $pikan = "";
     $pikat = max($neky,$kuky,$kaky,$sata,$sav,$ksa,$nesa,$kua,$kaa);
     $kest = max($kusa,$kasa,$tuhat,$tuhav,$katu,$kotu);
